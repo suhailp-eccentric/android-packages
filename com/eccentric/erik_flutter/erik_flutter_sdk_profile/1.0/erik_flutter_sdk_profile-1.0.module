@@ -42,11 +42,11 @@
         {
           "name": "erik_flutter_sdk_profile-1.0.aar",
           "url": "erik_flutter_sdk_profile-1.0.aar",
-          "size": 26147270,
-          "sha512": "0676a1e5f73275d5b14da845d5b20f21450fa15676a9230dbed49121499da368b0ee7850c9e72e471c1a4e6006d419305c9436fb255edc05290829c2468b155d",
-          "sha256": "b58b12c76f4de8b706efffc9eb6cf9e1fb885621d77fadf18c10ff6e36fa0f46",
-          "sha1": "5d00fb4af7f1cfdb928af4d289928642bab344c1",
-          "md5": "da49b7766d3294b41f8d0970b1f0bb65"
+          "size": 26149960,
+          "sha512": "6fa3ef7bcbe6095b0eb45d6ae3dc036d091a7ca6b2daf5af9894669250441a90459bf02f2f5a61a28d7828d866b41c219e74441d45a8c27a997bc7ddcb309aef",
+          "sha256": "e58d268a08398bf9cd939183b8fa79ae227e4900ca6e21fac7a856aa0668c641",
+          "sha1": "b830d2329058f5ab335729f65fd785ba4c52a355",
+          "md5": "fb6057e654855a25bc14856fb98037b5"
         }
       ]
     },
@@ -81,7 +81,7 @@
           }
         },
         {
-          "group": "com.github.hannesa2",
+          "group": "io.github.suhailpatel49",
           "module": "panoramagl",
           "version": {
             "requires": "1.14"
@@ -99,11 +99,11 @@
         {
           "name": "erik_flutter_sdk_profile-1.0.aar",
           "url": "erik_flutter_sdk_profile-1.0.aar",
-          "size": 26147270,
-          "sha512": "0676a1e5f73275d5b14da845d5b20f21450fa15676a9230dbed49121499da368b0ee7850c9e72e471c1a4e6006d419305c9436fb255edc05290829c2468b155d",
-          "sha256": "b58b12c76f4de8b706efffc9eb6cf9e1fb885621d77fadf18c10ff6e36fa0f46",
-          "sha1": "5d00fb4af7f1cfdb928af4d289928642bab344c1",
-          "md5": "da49b7766d3294b41f8d0970b1f0bb65"
+          "size": 26149960,
+          "sha512": "6fa3ef7bcbe6095b0eb45d6ae3dc036d091a7ca6b2daf5af9894669250441a90459bf02f2f5a61a28d7828d866b41c219e74441d45a8c27a997bc7ddcb309aef",
+          "sha256": "e58d268a08398bf9cd939183b8fa79ae227e4900ca6e21fac7a856aa0668c641",
+          "sha1": "b830d2329058f5ab335729f65fd785ba4c52a355",
+          "md5": "fb6057e654855a25bc14856fb98037b5"
         }
       ]
     },
@@ -119,11 +119,11 @@
         {
           "name": "erik_flutter_sdk_profile-1.0-sources.jar",
           "url": "erik_flutter_sdk_profile-1.0-sources.jar",
-          "size": 9601,
-          "sha512": "5a59397fd4c375ae5f3a2522cdd1a6857ceee66ea926cdf1c9496d576a4f43d3c0724d45ea22ca635181b5d0898f4618564e3c8a0ebb175e965b0d0701c38786",
-          "sha256": "a7ef32121bba7e58dc39dcd78d97c58b2483d296aeae055ed575f13ffdfe6dab",
-          "sha1": "9ddb9bc5f7092c32c00ff4df6215f28681b8d901",
-          "md5": "e6ebe4436823aa904cdf9cf1259bdbdb"
+          "size": 9965,
+          "sha512": "4886a4b7b5ff8cd65d37b32946d31f75735befce4a25d3a55010bfe7b614374fd0f3ab19c4a8203689f481dec7e2ac060a8b22151c02dfe023c3897a0e5ff68e",
+          "sha256": "79cad8e08d360a71143655752d5117409ac81acb46a481410d57fef64bf145fd",
+          "sha1": "c5bc821c4f7bc35d78074a02723f0bfb592e5282",
+          "md5": "5e9d073634b9ff8e1c0a0cf87a49c217"
         }
       ]
     },
