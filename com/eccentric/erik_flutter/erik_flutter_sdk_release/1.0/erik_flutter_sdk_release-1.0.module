@@ -120,10 +120,10 @@
           "name": "erik_flutter_sdk_release-1.0-sources.jar",
           "url": "erik_flutter_sdk_release-1.0-sources.jar",
           "size": 9965,
-          "sha512": "4886a4b7b5ff8cd65d37b32946d31f75735befce4a25d3a55010bfe7b614374fd0f3ab19c4a8203689f481dec7e2ac060a8b22151c02dfe023c3897a0e5ff68e",
-          "sha256": "79cad8e08d360a71143655752d5117409ac81acb46a481410d57fef64bf145fd",
-          "sha1": "c5bc821c4f7bc35d78074a02723f0bfb592e5282",
-          "md5": "5e9d073634b9ff8e1c0a0cf87a49c217"
+          "sha512": "00b9aa3a94ab0d47b880c5de12d01bc0c224b0933cfba26f1e1ba0a876795de08ceecbb0b2c82476c4b3917e41b2126bf7f506e5238add92e054f1e9667f987e",
+          "sha256": "c6123aca3ddaa3a320b40f484c578ce04962ac76bccaf36633cf8a1f7288fb68",
+          "sha1": "d2cd899f56423661f3557db081f8593e260af67b",
+          "md5": "193d5a5c43a79fb96fa8f78e3ff31fb7"
         }
       ]
     },
