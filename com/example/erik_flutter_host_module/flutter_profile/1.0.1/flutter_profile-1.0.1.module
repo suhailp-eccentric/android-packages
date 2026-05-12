@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.erik_flutter_host_module",
+    "module": "flutter_profile",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "com.eccentric.erik_flutter",
+          "module": "erik_flutter_sdk_profile",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_profile-1.0.1.aar",
+          "url": "flutter_profile-1.0.1.aar",
+          "size": 3686568,
+          "sha512": "89cbf33d01c36e56914053822423865c4b50b57e9e6597346fe1ec2531e737d14f9bdcbc3c0fa4188ee6409166071967286a8beedc4d11aac3a8d2540dd4eca8",
+          "sha256": "0a854f18fb743863adfeb2f856d251ce5af4aefd44107c9fa3826714cfe8bd10",
+          "sha1": "7ee54e2fac6f4010cc80997478f4d715252e2c6a",
+          "md5": "859cac22b4685f64cf403e5d623a969b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_profile",
+          "version": {
+            "requires": "1.0.0-3452d735bd38224ef2db85ca763d862d6326b17f"
+          }
+        },
+        {
+          "group": "com.eccentric.erik_flutter",
+          "module": "erik_flutter_sdk_profile",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_profile-1.0.1.aar",
+          "url": "flutter_profile-1.0.1.aar",
+          "size": 3686568,
+          "sha512": "89cbf33d01c36e56914053822423865c4b50b57e9e6597346fe1ec2531e737d14f9bdcbc3c0fa4188ee6409166071967286a8beedc4d11aac3a8d2540dd4eca8",
+          "sha256": "0a854f18fb743863adfeb2f856d251ce5af4aefd44107c9fa3826714cfe8bd10",
+          "sha1": "7ee54e2fac6f4010cc80997478f4d715252e2c6a",
+          "md5": "859cac22b4685f64cf403e5d623a969b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_profile-1.0.1-sources.jar",
+          "url": "flutter_profile-1.0.1-sources.jar",
+          "size": 1110,
+          "sha512": "41fa8ed2963d32d657a1ab05ec34415e2d89639d226a11c613b52953f2c018a333fa4317f182c8537fa9f5faca97c2b9456daaaddc41cd454fb38515294b26c6",
+          "sha256": "e856695a05ef195df8aa633165fb182de3c375cd37d84f4e51fb4b4dcbeed766",
+          "sha1": "8f1bb4aa5ba0219b53517cd90f66354bd90255aa",
+          "md5": "1d032d3cb167af72cf111d2aa72067fe"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_profile-1.0.1-javadoc.jar",
+          "url": "flutter_profile-1.0.1-javadoc.jar",
+          "size": 261619,
+          "sha512": "7ab0b3b2926e2fa13a31f88f990e64dfa320ebf1d1ecdbc9baf7bac4fbb48e4d00a4ae12704c4c56f14303e142d9dfa183700d594deb2e82cfacb91849651a84",
+          "sha256": "8e7c4e97400d52f2b8ef03c18fe28c54f359c9615979b9aa272615fb64ed26cd",
+          "sha1": "7e9738e646ade37ffcd7b833488f338ff4c80bb5",
+          "md5": "42f4f2c9a78454ff5c250538251f8996"
+        }
+      ]
+    }
+  ]
+}
