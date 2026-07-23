@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eccentric",
+    "module": "erik-android-sdk",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.github.suhailpatel49",
+          "module": "panoramagl",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-sdk-1.0.2.aar",
+          "url": "erik-android-sdk-1.0.2.aar",
+          "size": 5906863,
+          "sha512": "2a8fa27e9930b3d711429b228cc03a8fb41eaa253080e353a2cec475dc566e40537ec949050e533803ca7a16bf38443a407a0747b7ce293bfb0087b6be2c4054",
+          "sha256": "9c845b942f48f5e54749a158962b2daf130db5aeeac3f794dbe038f319cd2402",
+          "sha1": "e38b4afff8c07eb16a6917a3398150d44c3a5b41",
+          "md5": "c0643b2c5c8f81197dc6297fad022fcd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.github.suhailpatel49",
+          "module": "panoramagl",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-sdk-1.0.2.aar",
+          "url": "erik-android-sdk-1.0.2.aar",
+          "size": 5906863,
+          "sha512": "2a8fa27e9930b3d711429b228cc03a8fb41eaa253080e353a2cec475dc566e40537ec949050e533803ca7a16bf38443a407a0747b7ce293bfb0087b6be2c4054",
+          "sha256": "9c845b942f48f5e54749a158962b2daf130db5aeeac3f794dbe038f319cd2402",
+          "sha1": "e38b4afff8c07eb16a6917a3398150d44c3a5b41",
+          "md5": "c0643b2c5c8f81197dc6297fad022fcd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "erik-android-sdk-1.0.2-sources.jar",
+          "url": "erik-android-sdk-1.0.2-sources.jar",
+          "size": 16518,
+          "sha512": "9c472ff3c9ed91eea31e720e074888e53e9e7c93679ea61348d856ba86a88864cf14926e0cbc47b5228c3499f23298a96b392087b8abbedc652f1d52dfc2ac3c",
+          "sha256": "eea6906e8bb09c2f03e1ef50ff9441738de23163e99e234256dc78c15050632e",
+          "sha1": "afd7ca4a20d62106f5370442dd96862834c8d6c6",
+          "md5": "b4b385519ad1131391b27125df70d016"
+        }
+      ]
+    }
+  ]
+}
