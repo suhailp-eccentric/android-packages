@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eccentric",
+    "module": "erik-android-remote-sdk",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.eccentric",
+          "module": "erik-android-api",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-remote-sdk-1.0.2.aar",
+          "url": "erik-android-remote-sdk-1.0.2.aar",
+          "size": 63081,
+          "sha512": "2c5bb11c5bfbdb80f12ed03e7b92ea6d20cefa5705217f3399b9835a6d100edc9081f97a4ceb9829be83efff2f4e69785ac8b7102cdb08d9382eb5469597517e",
+          "sha256": "64ddb68347d636ec197d339ff73b043cd8d5e2a9cdefaa4250dacd80c98f2e76",
+          "sha1": "d8180b29abe662ab0c934b9690611ee2930aeac5",
+          "md5": "46bbb6818d31ae52052f744f9391b705"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.eccentric",
+          "module": "erik-android-api",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-remote-sdk-1.0.2.aar",
+          "url": "erik-android-remote-sdk-1.0.2.aar",
+          "size": 63081,
+          "sha512": "2c5bb11c5bfbdb80f12ed03e7b92ea6d20cefa5705217f3399b9835a6d100edc9081f97a4ceb9829be83efff2f4e69785ac8b7102cdb08d9382eb5469597517e",
+          "sha256": "64ddb68347d636ec197d339ff73b043cd8d5e2a9cdefaa4250dacd80c98f2e76",
+          "sha1": "d8180b29abe662ab0c934b9690611ee2930aeac5",
+          "md5": "46bbb6818d31ae52052f744f9391b705"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "erik-android-remote-sdk-1.0.2-sources.jar",
+          "url": "erik-android-remote-sdk-1.0.2-sources.jar",
+          "size": 11071,
+          "sha512": "4d282a67256423eeb5de2785d7d9f77f083a2967638926a503b2deaac12532b45d0e4ae50ae5e67294efd98c153659b0eddecf4e21f0c3eb69ef0017cf219e2a",
+          "sha256": "f148ecb0053b5ceea81a9f8743b23df567adfbce888c636cd60c872c71fa95fd",
+          "sha1": "ddc1faf90da4fcdbb73f65257900a7f10bdcbd6f",
+          "md5": "c7d9d3831b2866ed4263dd502b4352a7"
+        }
+      ]
+    }
+  ]
+}
