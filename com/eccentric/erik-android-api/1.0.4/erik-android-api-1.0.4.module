@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eccentric",
+    "module": "erik-android-api",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-api-1.0.4.aar",
+          "url": "erik-android-api-1.0.4.aar",
+          "size": 68856,
+          "sha512": "99db43c3441cf67bac517d0823745da0a48feaffb4adea74403f52e524a818afbc1d064319b10a50a3cf2adb3eba368d2b65d948198c86385395420e2196c33b",
+          "sha256": "2447327f22680fa252c645b67fda3f7f669c3f6ad570b6ba3d3ba11f41836181",
+          "sha1": "01407fbb50abd051190315adceea490515bd0923",
+          "md5": "78a30cabc3369f8352f3c17a30197053"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-api-1.0.4.aar",
+          "url": "erik-android-api-1.0.4.aar",
+          "size": 68856,
+          "sha512": "99db43c3441cf67bac517d0823745da0a48feaffb4adea74403f52e524a818afbc1d064319b10a50a3cf2adb3eba368d2b65d948198c86385395420e2196c33b",
+          "sha256": "2447327f22680fa252c645b67fda3f7f669c3f6ad570b6ba3d3ba11f41836181",
+          "sha1": "01407fbb50abd051190315adceea490515bd0923",
+          "md5": "78a30cabc3369f8352f3c17a30197053"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "erik-android-api-1.0.4-sources.jar",
+          "url": "erik-android-api-1.0.4-sources.jar",
+          "size": 11613,
+          "sha512": "4d7706a0898e6128945dace14c1a861b7691a50b300b0bd31d0b8e01b73545d2e905d75267ffd2920fc09a227e1baa604986c3b9f9221b959759c4dd88e88082",
+          "sha256": "a9468474314ee6a47ee37a384e12c3e5a5eb8c08fdf8fe3623e85648cbf63f49",
+          "sha1": "5c67c47c4a41d2a841714003a57fb7780321af0b",
+          "md5": "4f40d2a82cae7f3592637925b6d91d40"
+        }
+      ]
+    }
+  ]
+}
