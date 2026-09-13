@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eccentric",
+    "module": "erik-android-remote-sdk",
+    "version": "2.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.eccentric",
+          "module": "erik-android-api",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-remote-sdk-2.4.0.aar",
+          "url": "erik-android-remote-sdk-2.4.0.aar",
+          "size": 74344,
+          "sha512": "90db9ef4d3affd59166cb86ef35193a7b5881fbd30c96c6940a8be096377f879188df21d5e0491434e8703026a283eee359b109cf9398ceadbe6cdcde29e2083",
+          "sha256": "3bde132bfb01a7743a2308c031bc7754e974bd61ead880509209a787b0a1a93c",
+          "sha1": "3b0d79fb57425615bc831fd923f4b31a617cbc06",
+          "md5": "eb7ea4c1d1a09718d7491d5e6c3de652"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.eccentric",
+          "module": "erik-android-api",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-remote-sdk-2.4.0.aar",
+          "url": "erik-android-remote-sdk-2.4.0.aar",
+          "size": 74344,
+          "sha512": "90db9ef4d3affd59166cb86ef35193a7b5881fbd30c96c6940a8be096377f879188df21d5e0491434e8703026a283eee359b109cf9398ceadbe6cdcde29e2083",
+          "sha256": "3bde132bfb01a7743a2308c031bc7754e974bd61ead880509209a787b0a1a93c",
+          "sha1": "3b0d79fb57425615bc831fd923f4b31a617cbc06",
+          "md5": "eb7ea4c1d1a09718d7491d5e6c3de652"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "erik-android-remote-sdk-2.4.0-sources.jar",
+          "url": "erik-android-remote-sdk-2.4.0-sources.jar",
+          "size": 13001,
+          "sha512": "55c59ee68cc884c135ce0b61da347116f2f33b76d5b04fb7fe22797f1064be85156a835d08cd15067b80abc3e07ded13570a240a834529b1e115962eda470f7e",
+          "sha256": "13c0637003258af72a91e220134c9afc18fa5cd5c3e414d2ecb53b8ede8618f2",
+          "sha1": "9d5e98d2dcae6e0c13618ddfb918566c0b85b027",
+          "md5": "f5adf76aac5c07714ce889dbf013f9fe"
+        }
+      ]
+    }
+  ]
+}
