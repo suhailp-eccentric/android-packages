@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eccentric",
+    "module": "erik-android-sdk",
+    "version": "2.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.eccentric",
+          "module": "erik-android-api",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-sdk-2.6.0.aar",
+          "url": "erik-android-sdk-2.6.0.aar",
+          "size": 213679,
+          "sha512": "39fd8e4e2ae723b0c6a22e589be61a2768ad7c1fb0ae00e41425beb0c5d8e7fbc2eea315e276aa19cae9e5f311f6df1e118971d3c87905219b32f8e4748afabb",
+          "sha256": "b7ffe027ef9c610bd08cf11baf65fe38043f427d8d49c041e9a1a677607cf890",
+          "sha1": "3e0306ccb9a5b5caf1f3318d3dd0bbe6acf6967f",
+          "md5": "ee5617ff093c509bb14d4e904d327de2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.github.suhailpatel49",
+          "module": "panoramagl",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "com.eccentric",
+          "module": "erik-android-api",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "erik-android-sdk-2.6.0.aar",
+          "url": "erik-android-sdk-2.6.0.aar",
+          "size": 213679,
+          "sha512": "39fd8e4e2ae723b0c6a22e589be61a2768ad7c1fb0ae00e41425beb0c5d8e7fbc2eea315e276aa19cae9e5f311f6df1e118971d3c87905219b32f8e4748afabb",
+          "sha256": "b7ffe027ef9c610bd08cf11baf65fe38043f427d8d49c041e9a1a677607cf890",
+          "sha1": "3e0306ccb9a5b5caf1f3318d3dd0bbe6acf6967f",
+          "md5": "ee5617ff093c509bb14d4e904d327de2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "erik-android-sdk-2.6.0-sources.jar",
+          "url": "erik-android-sdk-2.6.0-sources.jar",
+          "size": 41082,
+          "sha512": "9729e510da40090abe98c0b824fd579bd854354eaf032413c8103a72a85fe1eb834404486bcd0fdfe41b66fcb9d4a05c05fbba74f61234ed6c377e8770705eb3",
+          "sha256": "e97f2c8092cf408ee05b9950bf52c2298e7b546465565ad3f837004a2625f9da",
+          "sha1": "9254a0ebfcaeadf165a2ebf7e605504d27775102",
+          "md5": "07b3c25e0e36b6f4a70333e8d4ee16b0"
+        }
+      ]
+    }
+  ]
+}
